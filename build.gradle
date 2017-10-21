@@ -35,9 +35,11 @@ configurations {
 }
 
 dependencies {
-
+	compile 'org.webjars:jquery:3.2.1'
+	compile 'org.webjars:bootstrap:4.0.0-beta-1'
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
 }
