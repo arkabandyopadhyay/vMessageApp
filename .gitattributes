@@ -1,7 +1,1 @@
-.classpath
-.gitattributes
-.gitattributes.swp
-.gradle/
-.project
-.settings/
 **/static/* linguist-vendored
